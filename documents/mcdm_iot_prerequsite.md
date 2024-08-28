@@ -27,8 +27,15 @@ I Studio Installer vælger vi to pakke.
 Genstart Maskinen.
 
 Kør i dit projekt
+
+Firmata
 ```
 npm i firmata
+```
+
+Node Gyp (Er global og skal kun gøres én gang.)
+```
+npm install -g node-gyp
 ```
 
 Og så skulle alt gerne være godt - husk "StandardFirmataPlus" uploaded til din Arduino.
