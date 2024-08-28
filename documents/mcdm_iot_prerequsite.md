@@ -2,6 +2,15 @@
 
 # Installation.
 
+Tjek At du hart python installeret 
+
+I terminalen.
+```
+python --version
+```
+
+
+
 ## Windows
 
 1. https://visualstudio.microsoft.com/vs/community/
