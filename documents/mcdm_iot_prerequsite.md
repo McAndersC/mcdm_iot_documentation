@@ -2,15 +2,14 @@
 
 # Installation.
 
+kilde: https://github.com/rwaldron/johnny-five/wiki/Getting-Started#prerequisites
+
 Tjek At du hart python installeret 
 
 I terminalen.
 ```
 python --version
 ```
-
-
-
 
 ## Windows
 
@@ -26,21 +25,27 @@ I Studio Installer vælger vi to pakke.
 
 Genstart Maskinen.
 
-Kør i dit projekt
+## Mac
+
+*I vinder denne gang og skal bare gå til næste punkt - hvis phyton er installeret.*
+
+## Windows og Mac -> Installer i projektet
 
 Firmata
 ```
 npm i firmata
 ```
 
-Node Gyp (Er global og skal kun gøres én gang.)
+Node Gyp kan installeres globalt og dermed kun én gang.
 ```
 npm install -g node-gyp
 ```
 
-Og så skulle alt gerne være godt - husk "StandardFirmataPlus" uploaded til din Arduino.
+Alternativt hvis det giver problemer (*pga skrive-rettigheder*). Så kan det installeres på projektet.
+```
+npm install node-gyp
+```
 
+Og så skulle alt gerne være godt - husk "StandardFirmataPlus" uploadet til din Arduino.
 
-
-2. https://github.com/rwaldron/johnny-five/wiki/Getting-Started#prerequisites
 
