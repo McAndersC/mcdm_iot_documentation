@@ -17,11 +17,11 @@ Jeg har lavet to templates som vi tager udgangspunkt i. Der er vejledning til in
 
 1. En server (En klasssik node/express)
 Fork eller zip følgnede repositorie, læs projektets *readme.md* for installation.
-!TODO indsæt link
+[Server Repo](https://github.com/McAndersC/socket_server)
 
 1. En Klient/Frontend (En klasssik vite-react)
 Fork eller zip følgnede repositorie, læs projektets *readme.md* for installation.
-!TODO indsæt link
+[Client Repo](https://github.com/McAndersC/socker_client)
 
 ## Server.
 
