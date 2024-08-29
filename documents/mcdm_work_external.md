@@ -51,6 +51,12 @@ Denne ip adresse skal vi udskitfe vores "localhost" med et par steder i projekte
 export const serverPath = "http://192.168.0.55:3042"
 ```
 
+Nu skal man huske at starte sin client med "dev extern". Enten vi NPM Scripts eller ved at skrive
+
+```javascript
+npm run "dev extern"
+```
+
 ## Server
 
 Ændre ALLE env filer så de benytter DIN IP.
