@@ -145,6 +145,7 @@ Nu mangler vi to vigtige filer som ikke ligger på vores github. `.env` og `.env
 
 Den kunne se sådan ud:
 ```
+NODE_ENV=development
 SERVER_PORT=3042
 SERVER_HOST=http://localhost:3042
 ARDUINO_PORT='COM10'
@@ -172,6 +173,7 @@ Her vil det være oplagt at du vælger port 3060 og 61 eller 40, 41 til din serv
 
 Så min env data ser nu sådan ud
 ```
+NODE_ENV=development
 SERVER_PORT=3061
 SERVER_HOST=http://localhost:3061
 ARDUINO_PORT='/dev/ttyACM1'
