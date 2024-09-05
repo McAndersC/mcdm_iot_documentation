@@ -35,5 +35,8 @@ NB: Lige nu har vi to maskiner vi kan ligge det på den "blå" og den "røde" v�
 # SSH
 
 [Vi starter med SSH via terminalen](ssh.md).
+[Server - Ftp](filetransfer.md).
+
+
 
 

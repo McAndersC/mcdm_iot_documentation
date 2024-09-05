@@ -43,6 +43,7 @@ De vigtigste Kommando´er
 | ls -a             | list indhold af mappe også skjulte filer       
 | cd *mappe-navn*   | Gå ind i mappe       
 | cd ..             | Gå en mappe tilbage  
+| nano text.txt     | nano 
 | touch test.txt    | opret test.txt fil  
 | mkdir test        | opret test mappe 
 | rm test.txt       | remove test.txt / sletter filen
@@ -171,12 +172,12 @@ Nu vil du se en liste med "applikationer" alle med et port navn
 
 Her vil det være oplagt at du vælger port 3060 og 61 eller 40, 41 til din server og client. Men det kan godt være vi lige skal snakke sammen på tværs hvis andre er igang samtidigt - vi kan være maks 4 på hver arduino. Jeg vælger her 60, 61 til client og server.
 
-Så min env data ser nu sådan ud
+Så min en   v data ser nu sådan ud
 ```
 NODE_ENV=development
 SERVER_PORT=3061
 SERVER_HOST=http://localhost:3061
-ARDUINO_PORT='/dev/ttyACM1'
+ARDUINO_PORT=/dev/ttyACM1
 ```
 
 Bemærk porten til min Arduino. Dette er ikke længere "COM10" nu er vi på en raspberry-os og portene har andre navne. 
